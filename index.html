@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Murkamilov Adilet" lang="en">
+  <title>Место</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="root">
+  <div class="page">
+    <header class="header">
+      <img src="./image/logo.svg" alt="Лого" class="header__logo">
+    </header>
+    <main>
+      <section class="profile">
+        <div class="profile__item">
+          <img src="./image/Kusto.png" alt="Аватар профиля" class="profile__avatar">
+          <div class="profile__text">
+            <div class="profile__text-name">
+              <p class="profile__name">
+                Жак-Ив Кусто
+              </p>
+              <button class="profile__btn-edit">
+              </button>
+            </div>
+            <p class="profile__name-descr">
+              Исследователь океана
+            </p>
+          </div>
+        </div>
+        <button class="profile__btn-add">
+        </button>
+      </section>
+      <section class="elements">
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group.png" alt="Собор">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Карачаевск
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group (1).png" alt="">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Гора Эльбрус
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group (2).png" alt="">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Домбай
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group (3).png" alt="">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Гора Эльбрус
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group (4).png" alt="">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Домбай
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/Mask Group (5).png" alt="">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Карачаево-Черкессия
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__text">
+          &#169;2020 Mesto Russia
+        </p>
+      </footer>
+    </main>
+  </div>
+  <form method="post" action="form.php">
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+    <div class="radio">
+      <span>Пол</span>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+    <div>
+      <label for="country">Страна</label>
+      <div class="select-arrow"></div> 
+    </div> 
+    <button type="submit">Отправить</button> 
+  </form> 
+</div>
+    </div>
+  </form>
+</body>
+
+</html>
