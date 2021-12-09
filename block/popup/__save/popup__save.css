@@ -1,0 +1,19 @@
+.popup__save {
+  max-width: 358px;
+  max-height: 50px;
+  margin-top: 48px;
+  background: #000000;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+  .popup__save {
+    width: 238px;
+    height: 46px;
+  }
+}

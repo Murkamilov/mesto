@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Murkamilov Adilet" lang="en">
+  <meta name="author" content="Муркамилов Адилет" lang="ru">
   <title>Место</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="root">
@@ -37,25 +37,43 @@
       </section>
       <section class="elements">
         <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group.png" alt="Собор">
+          <img class="restangle__image" src="./image/MaskGroup.png" alt="Собор">
           <div class="restangle__box">
             <p class="restangle__text">
               Карачаевск
             </p>
-            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="Лайк">
           </div>
         </div>
         <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group (1).png" alt="">
+          <img class="restangle__image" src="./image/MaskGroup1.png" alt="Восход">
           <div class="restangle__box">
             <p class="restangle__text">
               Гора Эльбрус
             </p>
-            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="Лайк">
           </div>
         </div>
         <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group (2).png" alt="">
+          <img class="restangle__image" src="./image/MaskGroup2.png" alt="Горы">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Домбай
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="Лайк">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/MaskGroup3.png" alt="Восход">
+          <div class="restangle__box">
+            <p class="restangle__text">
+              Гора Эльбрус
+            </p>
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="Лайк">
+          </div>
+        </div>
+        <div class="restangle">
+          <img class="restangle__image" src="./image/MaskGroup4.png" alt="Горы">
           <div class="restangle__box">
             <p class="restangle__text">
               Домбай
@@ -64,30 +82,12 @@
           </div>
         </div>
         <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group (3).png" alt="">
-          <div class="restangle__box">
-            <p class="restangle__text">
-              Гора Эльбрус
-            </p>
-            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
-          </div>
-        </div>
-        <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group (4).png" alt="">
-          <div class="restangle__box">
-            <p class="restangle__text">
-              Домбай
-            </p>
-            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
-          </div>
-        </div>
-        <div class="restangle">
-          <img class="restangle__image" src="./image/Mask Group (5).png" alt="">
+          <img class="restangle__image" src="./image/MaskGroup5.png" alt="Собор">
           <div class="restangle__box">
             <p class="restangle__text">
               Карачаево-Черкессия
             </p>
-            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="">
+            <img class="restangle__like-disabled restangle__like-active" src="./image/like.svg" alt="Лайк">
           </div>
         </div>
       </section>
@@ -98,35 +98,24 @@
       </footer>
     </main>
   </div>
-  <form method="post" action="form.php">
-    <div>
-      <label for="name">Имя</label>
-      <input type="text" name="name" required>
-    </div>
-    <div class="radio">
-      <span>Пол</span>
-      <label>
-        <input type="radio" name="sex" value="мужской">мужской
-        <div class="radio-control male"></div>
-      </label>
-      <label>
-        <input type="radio" name="sex" value="женский">женский
-        <div class="radio-control female"></div>
-      </label>
-    </div>
-    <div>
-      <label for="email">E-mail</label>
-      <input type="email" name="email" required>
-    </div>
-    <div>
-      <label for="country">Страна</label>
-      <div class="select-arrow"></div> 
-    </div> 
-    <button type="submit">Отправить</button> 
-  </form> 
+  <div class="popup">
+    <button type="button" class="popup__close">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M32 28.8L19.2 16L32 3.2L28.8 0L16 12.8L3.2 0L0 3.2L12.8 16L0 28.8L3.2 32L16 19.2L28.8 32L32 28.8Z" fill="white"/>
+      </svg>
+      </button>
+    <form class="popup__form" id="editProfile" >
+        <h2 class="popup__title">Редактировать&nbsp;профиль</h2>
+            <label class="popup__form-label">
+                <input class="form__input form__name" name="Name" value="Жак-Ив Кусто" type="text">
+            </label>
+            <label class="popup__form-label">
+              <input class="form__input form__descr" name="descr" value="Исследователь океана" type="text">
+          </label>
+          <button class="popup__save" type="submit">Сохранить</button>
+    </form>
 </div>
-    </div>
-  </form>
+<script src="./script.js"></script>
 </body>
 
 </html>
