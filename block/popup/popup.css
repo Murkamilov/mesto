@@ -4,8 +4,9 @@
   position: absolute;
   width: 430px;
   height: 330px;
+  left: 50%;
   top: 195px;
-  left: 425px;
+  transform: translate(-50%);
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -16,7 +17,7 @@
   .popup {
     width: 282px;
     height: 322px;
-    top: 123px;
-    left: 19px;
+    top: 0;
+    left: 0;
   }
 }
