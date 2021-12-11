@@ -17,10 +17,11 @@
   .popup__close {
     top: -30px;
     right: 0;
-  }
-
-  .popup__close svg {
     width: 20px;
     height: 20px;
+  }
+
+  .popup__close>svg {
+
   }
 }

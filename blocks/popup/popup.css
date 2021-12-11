@@ -17,7 +17,8 @@
   .popup {
     width: 282px;
     height: 322px;
-    top: 0;
-    left: 0;
+    left: 50%;
+    top: 123px;
+    transform: translate(-50%);
   }
 }
