@@ -1,22 +1,22 @@
 .profile__btn-edit {
-  background-image: url(../../../image/edit.svg);
+  background-image: url(../../../images/edit.svg);
   background-position: center center;
   background-repeat: no-repeat;
+  padding: 0;
   width: 24px;
   height: 24px;
-  margin-left: 18px;
   border: 1px solid #ffffff;
   background-color: transparent;
-  cursor: pointer;
-  padding: 0;
+  margin-left: 18px;
 }
 
 .profile__btn-edit:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
-
   .profile__btn-edit {
     margin-left: 10px;
     width: 18px;
