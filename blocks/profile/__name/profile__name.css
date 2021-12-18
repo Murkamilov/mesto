@@ -1,8 +1,7 @@
 .profile__name {
   padding: 0;
   margin: 0 0 16px 0;
-  height: 39px;
-  font-family: inter;
+  font-family: inter, sans-serif;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
@@ -13,7 +12,7 @@
     font-size: 27px;
     line-height: 33px;
     margin-bottom: 14px;
-    height: 26px;
+    max-width: 189px;
     text-align: center;
   }
 }
