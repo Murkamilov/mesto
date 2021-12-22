@@ -6,12 +6,10 @@
   width: 430px;
   height: fit-content;
   position: relative;
-  margin-top: 195px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
   .popup__container {
     width: 282px;
-    margin-top: 123px;
   }
 }
