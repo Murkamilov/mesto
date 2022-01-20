@@ -16,12 +16,12 @@
 @import url(../blocks/profile/__edit-img/profile__edit-img.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/restangle/restangle.css);
+@import url(../blocks/restangle/__delite/restangle__delite.css);
 @import url(../blocks/restangle/__img/restangle__img.css);
 @import url(../blocks/restangle/__box/restangle__box.css);
 @import url(../blocks/restangle/__text/restangle__text.css);
-@import url(../blocks/restangle/__like/restangle__like.css);
-@import url(../blocks/restangle/__like/_active/restangle__like_active.css);
 @import url(../blocks/restangle/__like-btn/restangle__like-btn.css);
+@import url(../blocks/restangle/__like-btn/_active/restangle__like-btn_active.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/popup/popup.css);
@@ -33,3 +33,9 @@
 @import url(../blocks/popup/__form-label/popup__form-label.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__save/popup__save.css);
+@import url(../blocks/opencards/opencards.css);
+@import url(../blocks/opencards/__box/opencards__box.css);
+@import url(../blocks/opencards/__title/opencards__title.css);
+@import url(../blocks/opencards/__close-btn/opencards__close.css);
+@import url(../blocks/opencards/__img/opencards__img.css);
+@import url(../blocks/opencards/_active/opencards_active.css);

@@ -1,4 +1,15 @@
 .restangle__like-btn {
   border: none;
+  background-image:url(../../../images/like.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color: inherit;
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.restangle__like-btn:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }

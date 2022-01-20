@@ -1,6 +1,4 @@
-.popup_open {
-  display: flex;
-  justify-content: center;
+.opencards_active {
   visibility: visible;
   opacity: 1;
   transition: 0s, opacity 0.5s linear;

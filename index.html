@@ -1,171 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Муркамилов Адилет" lang="ru" />
-    <title>Место</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
 
-  <body class="root">
-    <div class="page">
-      <header class="header">
-        <img src="./images/logo.svg" alt="Лого" class="header__logo" />
-      </header>
-      <main>
-        <section class="profile">
-          <div class="profile__item">
-            <img
-              src="./images/Kusto.png"
-              alt="Аватар профиля"
-              class="profile__avatar"
-            />
-            <div class="profile__text">
-              <div class="profile__text-name">
-                <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__btn-edit"></button>
-              </div>
-              <p class="profile__name-descr">Исследователь океана</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Муркамилов Адилет" lang="ru" />
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="root">
+  <div class="page">
+    <header class="header">
+      <img src="./images/logo.svg" alt="Лого" class="header__logo" />
+    </header>
+    <main>
+      <section class="profile">
+        <div class="profile__item">
+          <img src="./images/Kusto.png" alt="Аватар профиля" class="profile__avatar" />
+          <div class="profile__text">
+            <div class="profile__text-name">
+              <h1 class="profile__name">Жак-Ив Кусто</h1>
+              <button type="button" class="profile__btn-edit"></button>
             </div>
+            <p class="profile__name-descr">Исследователь океана</p>
           </div>
-          <button type="button" class="profile__btn-add"></button>
-        </section>
-        <section class="elements">
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Sobor.jpg"
-              alt="Собор"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Карачаевск</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Elbrus.png"
-              alt="Восход"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Гора Эльбрус</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Dombay.png"
-              alt="Горы"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Домбай</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Elbrus.png"
-              alt="Восход"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Гора Эльбрус</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Dombay.png"
-              alt="Горы"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Домбай</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="restangle">
-            <img
-              class="restangle__image"
-              src="./images/Sobor.jpg"
-              alt="Собор"
-            />
-            <div class="restangle__box">
-              <h2 class="restangle__text">Карачаево-Черкессия</h2>
-              <button type="button" class="restangle__like-btn">
-                <img
-                  class="restangle__like restangle__like_active"
-                  src="./images/like.svg"
-                  alt="Лайк"
-                />
-              </button>
-            </div>
-          </div>
-        </section>
-        <footer class="footer">
-          <p class="footer__text">&#169;2020 Mesto Russia</p>
-        </footer>
-      </main>
-      <div class="popup">
-        <div class="popup__container">
-          <button type="button" class="popup__close"></button>
-          <form class="popup__form" id="editProfile" name="popupForm">
-            <h2 class="popup__title">Редактировать&nbsp;профиль</h2>
-            <label class="popup__form-label">
-              <input
-                class="popup__input popup__input_type_name"
-                name="typeName"
-                value="Жак-Ив Кусто"
-                type="text"
-              />
-            </label>
-            <label class="popup__form-label">
-              <input
-                class="popup__input popup__input_type_profession"
-                name="typeProfession"
-                value="Исследователь океана"
-                type="text"
-              />
-            </label>
-            <button class="popup__save" type="submit">Сохранить</button>
-          </form>
         </div>
+        <button type="button" class="profile__btn-add"></button>
+      </section>
+      <section class="elements">
+      </section>
+      <footer class="footer">
+        <p class="footer__text">&#169;2020 Mesto Russia</p>
+      </footer>
+    </main>
+    <div class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close"></button>
+        <form class="popup__form" id="editProfile" name="popupForm">
+          <h2 class="popup__title">Редактировать&nbsp;профиль</h2>
+          <label class="popup__form-label">
+            <input class="popup__input popup__input_type_name" name="typeName" value="Жак-Ив Кусто" type="text" />
+          </label>
+          <label class="popup__form-label">
+            <input class="popup__input popup__input_type_profession" name="typeProfession" value="Исследователь океана"
+              type="text" />
+          </label>
+          <button class="popup__save" type="submit">Сохранить</button>
+        </form>
       </div>
     </div>
-    <script src="./scripts/script.js"></script>
-  </body>
+    <div class="popup popup-add">
+      <div class="popup__container">
+        <button type="button" class="popup__close popup-add__close"></button>
+        <form class="popup__form" id="newCards" name="popupForm">
+          <h2 class="popup__title">Новое место</h2>
+          <label class="popup__form-label">
+            <input class="popup__input popup__input_type_title" name="InputName" placeholder="Название" type="text" />
+          </label>
+          <label class="popup__form-label">
+            <input class="popup__input popup__input_type_link" name="InputLink" placeholder="Ссылка на картинку"
+              type="text" />
+          </label>
+          <button class="popup__save popup__save-card" type="submit">Создать</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <section class="opencards">
+    <div class="opencards__box">
+      <img src="" alt="" class="opencards__img">
+      <h2 class="opencards__title">
+      </h2>
+      <button class="opencards__close-btn"></button>
+    </div>
+  </section>
+  <script src="./scripts/script.js"></script>
+</body>
+
 </html>
