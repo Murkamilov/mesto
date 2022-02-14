@@ -121,4 +121,3 @@ elementsSection.addEventListener('click', (event) => {
 })
 
 render(initialCards);
-
